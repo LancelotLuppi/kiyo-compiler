@@ -1,0 +1,14 @@
+package syntax;
+
+public enum Kind {
+    NUMBER,
+    WHITESPACE,
+    PLUS,
+    MINUS,
+    ASTERISK,
+    SLASH,
+    OPEN_PARENTHESIS,
+    CLOSE_PARENTHESIS,
+    END_OF_FILE, NUMBER_EXPRESSION, BINARY_EXPRESSION, BAD_SYNTAX
+
+}
